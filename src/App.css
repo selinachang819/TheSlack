@@ -1,33 +1,50 @@
-.App {
+body {
+  background-color: antiquewhite;
+ 
+}
+h3 {
+  font-family: 'Times New Roman'; 
   text-align: center;
+  font-size: 20px;
+  border: black;
+  border-bottom-style: dotted;
+  margin-bottom: 0;
+  padding-bottom: 20px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+#title{
+  position: absolute;
+  font-size: 25px;
+  font-weight: 100;
+  top: 1.5cm;
+  left: 30%;
+  text-align: center;
+  font-style: oblique;
+  color:white;
+  font-family: 'Times New Roman';
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.slack {
+  font-size: 20px;
+  width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  font-family: 'Times New Roman';
+  position: absolute;
+  top: 4cm;
+  text-align: center;
+  
+ 
+} 
+
+#user, #interface, #address, #city, #cloud, #earth {
+  width: 33.3%
 }
 
-.App-link {
-  color: #61dafb;
+img {
+  width: 35%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#bg {
+  opacity: 0.4;
+  width: 100%;
 }
